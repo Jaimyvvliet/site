@@ -1,0 +1,99 @@
+html {
+}
+
+body {
+  font-family: "Faustina", Georgia, "Times New Roman";
+  text-align: left;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #AFEEEE;
+  -webkit-text-stroke: 1px #9370DB;
+  font-size: 46px;
+  font-family: Georgia;
+}
+
+h1 { font-size: 46px; }
+h2 { font-size: 32px; }
+h3 { font-size: 32px; }
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-right: 600px;
+  margin-top: 15px;
+  margin-left: 170px;
+}
+
+
+.vroeger, .actueel {
+  flex: 1;
+  background: #F5F5F5;
+  backdrop-filter: blur(6px);
+  padding: 10px;
+  border: 2px dotted #444444;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
+
+header {
+  margin-left: 200px;
+}
+
+footer {
+  font-family: Libre Bodoni, Arial;
+  font-size: 24px;
+  margin-top: 80px;
+  margin-left: 200px;
+}
+
+h1.naam {
+  font-size: 54px;
+  line-height: 1.1;
+  color: #AFEEEE;
+  -webkit-text-stroke: 2px #9370DB;
+}
+
+h1.naam span {
+  display: block;
+  margin-top: 2px;
+  color: #9370DB;
+  -webkit-text-stroke: 3px #444444;
+  font-size: 64px;
+}
+
+
+.fotogalerij {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.fotogalerij img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #8B4513;
+}
+
+.page-wrapper {
+  background-image: url("achtergrond.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
