@@ -17,19 +17,23 @@
     margin-block: 0;
     padding-inline: 0;
     list-style:none;
+    display: grid;
+    gap: var(--gap-regular);
   }
 
   ul li {
     background:var(--color-secondary);
     padding:var(--padding-regular);
     border-radius: var(--border-radius-regular);
+    width:100%;
+    height:100%;
   }
 
   ul li a {
     background:var(--color-secondary);
-    padding:var(--padding-regular);
     border-radius: var(--border-radius-regular);
-    width:100%
+    width:auto;
+    display:flex;
   }
 
 </style>
