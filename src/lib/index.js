@@ -4,6 +4,8 @@ export { default as Footer } from './components/1-Atoms/Footer.svelte';
 export { default as Wrapper } from './components/1-Atoms/Wrapper.svelte';
 export { default as AboutMe } from './components/1-Atoms/AboutMe.svelte';
 export { default as Icons } from './components/1-Atoms/Icons.svelte';
+export { default as Paragraph } from './components/1-Atoms/Paragraph.svelte';
+export { default as HeroTitle } from './components/1-Atoms/HeroTitle.svelte';
 
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
 

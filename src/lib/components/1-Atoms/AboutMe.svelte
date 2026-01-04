@@ -1,4 +1,5 @@
 <script>
+  import { Paragraph } from '$lib/index.js'
   export let about;
 </script>
 
@@ -11,7 +12,7 @@
   >
 
 {#if about?.paragraph}
-  <section>
+  <Paragraph>
     <h2>{about?.paragraph.mainTitle}</h2>
     <p>{about.paragraph.content}</p>
 
@@ -21,7 +22,7 @@
     <p>{section.contentOfSection}</p>
     {/each}
   {/if}
-  </section>
+  </Paragraph>
 {/if}
 
 <style>

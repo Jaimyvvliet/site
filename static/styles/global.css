@@ -21,7 +21,9 @@
   --font-family-primary: sans-serif;
 
   /* utentils */
-  --padding-regular: 1rem; 
+  --padding-regular: 1rem;
+  --padding-medium: 2rem;
+  --padding-large: 4rem; 
   --border-radius-regular:1rem;
   --gap-small:.5rem;
   --gap-regular: 1rem; 
@@ -52,7 +54,7 @@ video {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius-regular);
 }
 
 h1,
@@ -62,6 +64,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-family-heading);
+  text-align:center;
 }
 
 p,
