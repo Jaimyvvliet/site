@@ -1,4 +1,5 @@
 <script>
+  import { Icons } from '$lib/index.js'
   export let linkList;
 </script>
 
@@ -6,7 +7,17 @@
     <ul>
       {#each linkList as link}
         <li>
-          <a href={link.hyperlink}>{link.titleOfHyperlink}</a>
+          <a href={link.hyperlink}>
+            {#if link.hyperlink.includes('instagram')}
+              <Icons icon='Instagram'/>
+            {:else if link.hyperlink.includes('tiktok')}
+              <Icons icon='TikTok'/>
+            {:else if link.hyperlink.includes('youtube')}
+              <Icons icon='Youtube'/>
+            {/if}
+
+            {link.titleOfHyperlink}
+          </a>
         </li>
       {/each}
     </ul>
@@ -21,18 +32,15 @@
     gap: var(--gap-regular);
   }
 
-  ul li {
-    width:100%;
-    height:100%;
-  }
-
   ul li a {
     background:var(--color-secondary);
     padding:var(--padding-regular);
     border-radius: var(--border-radius-regular);
     width:auto;
     display:flex;
-    transition: var(--hover-transition)
+    align-items:center;
+    gap:var(--gap-small);
+    transition: var(--hover-transition);
   }
 
   ul li a:hover {
