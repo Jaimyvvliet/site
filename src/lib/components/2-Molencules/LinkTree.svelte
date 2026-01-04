@@ -3,6 +3,7 @@
   export let linkList;
 </script>
 
+<h2>Hyperlinks</h2>
   {#if linkList.length > 0 }
     <ul>
       {#each linkList as link}

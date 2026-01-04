@@ -7,8 +7,6 @@
   } from '$lib/index.js'
 
   export let content;
-  console.log(content)
-
 </script>
 
 <Wrapper>
