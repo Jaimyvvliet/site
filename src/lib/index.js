@@ -10,3 +10,4 @@ export { default as HeroTitle } from './components/1-Atoms/HeroTitle.svelte';
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
 
 export { default as Landingpage } from './components/3-Organism/Landingpage.svelte';
+export { default as LinkTreePage } from './components/3-Organism/LinkTreePage.svelte';

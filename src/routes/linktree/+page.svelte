@@ -1,6 +1,7 @@
 <script>
-  import { LinkTree } from "$lib/index.js";
+  import { LinkTreePage } from "$lib/index.js";
   export let data;
 </script>
 
-<LinkTree linkList={data.linkList}/>
+<LinkTreePage content={data} />
+
