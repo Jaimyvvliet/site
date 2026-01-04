@@ -35,6 +35,6 @@ export const load = async () => {
 	const data = await hygraph.request(query);
 
 	return {
-		about: data.aboutMes
+		about: data.aboutMes[0]
 	};
 };

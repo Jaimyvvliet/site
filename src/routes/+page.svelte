@@ -1,27 +1,14 @@
 
 <script>
   import { 
-    Wrapper,
-    LinkTree
+    Landingpage
   } from '$lib/index.js'
 
   export let data;
-  console.log(data)
 </script>
 
-<Wrapper>
-  <LinkTree />
-  <main>
-    <section id="Biografie">
-      <h2>Biografie</h2>
-      <p>Jaimy Rafael, een turbulente singer/songwriter bekend om zijn mix van introspectieve teksten en dromerige catchy melodieën. Op zijn veertiende bracht Jaimy zijn eerste zelfgeschreven nummer uit en begon hij met het bewandelen van zijn officiële pad in de muziek. Sindsdien zijn er diverse nummers gevolgd, waaronder zowel zijn meest recente nummer Take What You Want als zijn EP uit 2021 genaamd Oversoon. Zijn muziekcatalogus toont een variëteit van genres. Van Pop-Rock en emotionele Spaanse Ballads tot aan Soft-House, Jaimy heeft door de tijd heen een veelzijdig lyricaal kleurenpallette ontwikkeld en de nodige ervaring opgedaan als songwriter. Het zal niet verbazen dat Jaimy zijn muzikale identiteit karakteriseert met de woorden fluïditeit, gelaagdheid en authenticiteit.</p>
-      <img src="Persfoto Jaimy Rafael.jpg" alt="Persfoto Jaimy Rafael" class="Persfoto">
-    </section>
-    <section id="Muzikale-plannen">
-      <h3>Muzikale plannen</h3>
-      <p>Na enige tijd van radiostilte heeft Jaimy het afgelopen jaar een groot aantal nieuwe muzikale ervaringen opgedaan. Zo is hij naar Mexico gegaan om daar meerdere optredens te geven, waaronder zijn eerste succesvolle eigen show. Hiernaast heeft Jaimy meegedaan aan het artistieke ontwikkelingstraject Popspot Gelderland, waar hij kennis heeft opgedaan over het artiest zijn op verschillende vlakken. Ook is hij een nieuwe muzikale richting ingeslagen met een nieuw genre: Reflective Pop. Zijn meest recente werk is hier een duidelijk voorbeeld van. Het afgelopen jaar heeft in het teken gestaan van een artistieke hervorming die in de toekomst nog verder zal floreren.</p>
-    </section>
-  </main>
-</Wrapper>
+<Landingpage content= {data}/>
+
+
 
 
