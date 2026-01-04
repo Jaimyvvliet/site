@@ -1,9 +1,56 @@
+@font-face {
+  font-family: "Petit Formal Script";
+  src: url(static/fonts/PetitFormalScript-Regular.ttf) format("ttf"),
+}
+
 :root {
+  /* colors */
   --color-primary: #CB98FF;
   --color-secondary:#C4EBC8;
   --color-tertiary:#A053C5;
   --color-quaternary:#8291FF;
   --color-light:#EEF5DB;
   --color-dark:#31081F;
+
+  /* fonts */
+  --font-family-heading: "Petit Formal Script", serif;
+  --font-family-primary: sans-serif;
+
+  /* utentils */
+  --padding-regular: 1rem; 
+  --border-radius-regular:1rem;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family-primary);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100dvh;
+  width: 100dvw;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+}
+
+p,
+ul,
+li,
+a {
+  font-size: 1rem;
+  line-height:1.5rem;
+}

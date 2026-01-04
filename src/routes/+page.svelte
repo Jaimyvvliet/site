@@ -1,6 +1,16 @@
 
+<script>
+  import { 
+    Wrapper,
+    LinkTree
+  } from '$lib/index.js'
 
+  export let data;
+  console.log(data)
+</script>
 
+<Wrapper>
+  <LinkTree />
   <main>
     <section id="Biografie">
       <h2>Biografie</h2>
@@ -12,4 +22,6 @@
       <p>Na enige tijd van radiostilte heeft Jaimy het afgelopen jaar een groot aantal nieuwe muzikale ervaringen opgedaan. Zo is hij naar Mexico gegaan om daar meerdere optredens te geven, waaronder zijn eerste succesvolle eigen show. Hiernaast heeft Jaimy meegedaan aan het artistieke ontwikkelingstraject Popspot Gelderland, waar hij kennis heeft opgedaan over het artiest zijn op verschillende vlakken. Ook is hij een nieuwe muzikale richting ingeslagen met een nieuw genre: Reflective Pop. Zijn meest recente werk is hier een duidelijk voorbeeld van. Het afgelopen jaar heeft in het teken gestaan van een artistieke hervorming die in de toekomst nog verder zal floreren.</p>
     </section>
   </main>
+</Wrapper>
+
 
