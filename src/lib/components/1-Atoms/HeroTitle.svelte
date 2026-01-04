@@ -16,7 +16,6 @@
       margin:0;
     }
 
-
     h1 {
     
       @media (min-width:500px) {

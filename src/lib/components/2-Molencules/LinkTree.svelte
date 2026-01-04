@@ -50,6 +50,7 @@
     align-items:center;
     gap:var(--gap-small);
     transition: var(--hover-transition);
+    justify-content: center;
   }
 
   ul li a:hover {
