@@ -22,18 +22,22 @@
   }
 
   ul li {
-    background:var(--color-secondary);
-    padding:var(--padding-regular);
-    border-radius: var(--border-radius-regular);
     width:100%;
     height:100%;
   }
 
   ul li a {
     background:var(--color-secondary);
+    padding:var(--padding-regular);
     border-radius: var(--border-radius-regular);
     width:auto;
     display:flex;
+    transition: var(--hover-transition)
+  }
+
+  ul li a:hover {
+    background:var(--color-dark);
+    color:var(--color-light);
   }
 
 </style>

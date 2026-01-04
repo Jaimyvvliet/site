@@ -24,6 +24,9 @@
   --padding-regular: 1rem; 
   --border-radius-regular:1rem;
   --gap-regular: 1rem; 
+
+  /* transition */
+  --hover-transition: 200ms 0ms ease-in-out;
 }
 
 * {
