@@ -14,6 +14,8 @@
   --color-light:#EEF5DB;
   --color-dark:#31081F;
 
+  --color-background: var(--color-quaternary);
+
   /* fonts */
   --font-family-heading: "Petit Formal Script", serif;
   --font-family-primary: sans-serif;
@@ -35,8 +37,8 @@ html {
   overflow-x: hidden;
   min-height: 100dvh;
   width: 100dvw;
-  background-color: var(--color-dark);
-  color: var(--color-light);
+  background-color: var(--color-background);
+  color: var(--color-dark);
   display: block;
 }
 

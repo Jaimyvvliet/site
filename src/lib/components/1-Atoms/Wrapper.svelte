@@ -1,5 +1,5 @@
 <script>
-  export let backgroundColor = 'var(--color-dark)';
+  export let backgroundColor = 'var(--color-background)';
   export let fullwidth = false;
 </script>
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     padding: 2rem;
-    background-color: var(--color-dark);
+    background-color: var(--color-light);
 
     @media (min-width: 700px) {
       padding: 2rem 4rem;
@@ -32,7 +32,7 @@
   .wrapper-fullwidth {
     display: flex;
     justify-content: center;
-    background-color: var(--color-dark);
+    background-color: var(--color-light);
 
     @media (min-width: 700px) {
     padding: 2rem 4rem;
