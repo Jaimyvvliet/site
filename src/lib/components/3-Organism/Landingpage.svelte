@@ -6,9 +6,11 @@
   } from '$lib/index.js'
 
   export let content;
+  console.log(content)
+
 </script>
 
 <Wrapper>
   <AboutMe about={content.about}/>
-  <LinkTree />
+  <LinkTree linkList={content.linkList}/>
 </Wrapper>

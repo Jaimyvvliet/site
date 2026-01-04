@@ -29,12 +29,19 @@ export const load = async () => {
         width
       }
     }
+    linkTrees {
+      linkTree {
+        hyperlink
+        titleOfHyperlink
+      }
+    }
   }
 	`;
 
 	const data = await hygraph.request(query);
 
 	return {
-		about: data.aboutMes[0]
+		about: data.aboutMes[0],
+    linkList: data.linkTrees[0]?.linkTree ?? []
 	};
 };

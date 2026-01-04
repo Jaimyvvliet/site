@@ -1,9 +1,16 @@
+<script>
+  export let linkList;
+</script>
 
-<ul>
-  <li>
-    <a href='/www.instagram.com/jaimyrafael'>follow me on instagram</a>
-  </li>
-</ul>
+  {#if linkList.length > 0 }
+    <ul>
+      {#each linkList as link}
+        <li>
+          <a href={link.hyperlink}>{link.titleOfHyperlink}</a>
+        </li>
+      {/each}
+    </ul>
+  {/if}
 
 <style>
   ul {

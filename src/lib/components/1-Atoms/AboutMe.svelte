@@ -1,5 +1,4 @@
 <script>
-  import { Wrapper } from '$lib/index.js';
   export let about;
 </script>
 
@@ -18,7 +17,6 @@
 
   {#if about?.paragraph.additionalSections}
     {#each about?.paragraph.additionalSections as section}
-    {console.log(section)}
     <h3>{section.sectionTitle}</h3>
     <p>{section.contentOfSection}</p>
     {/each}
@@ -34,10 +32,4 @@
     width: 100%;
     object-fit: contain;
   }
-
-  section {
-    max-width: 600px;
-    width: 100%;
-  }
-
 </style>
