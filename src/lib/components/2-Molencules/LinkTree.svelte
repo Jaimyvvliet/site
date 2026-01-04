@@ -30,9 +30,18 @@
     list-style:none;
     display: grid;
     gap: var(--gap-regular);
+
+    @media (min-width:900px) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
-  ul li a {
+  ul li a,
+  ul li a:visited,
+  ul li a:link,
+  ul li a:active {
+    color:var(--color-dark);
+    text-decoration:none;
     background:var(--color-secondary);
     padding:var(--padding-regular);
     border-radius: var(--border-radius-regular);
@@ -46,6 +55,8 @@
   ul li a:hover {
     background:var(--color-dark);
     color:var(--color-light);
+    transform: scale(1.02);
+
   }
 
 </style>
