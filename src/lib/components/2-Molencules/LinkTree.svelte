@@ -26,6 +26,7 @@
 
 <style>
   ul {
+    padding: var(--padding-container);
     margin-block: 0;
     padding-inline: 0;
     list-style:none;

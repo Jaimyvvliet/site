@@ -8,7 +8,7 @@
     display: grid;
     justify-content: center;
 
-    padding: var(--padding-medium) 0;
+    padding: var(--padding-container);
     }
 
     h1,

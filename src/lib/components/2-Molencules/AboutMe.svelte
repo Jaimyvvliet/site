@@ -3,7 +3,7 @@
   export let about;
 </script>
 
-
+<div>
   <img 
   src={about.thumbnail.url}
   width={about.thumbnail.width}
@@ -24,8 +24,14 @@
   {/if}
   </Paragraph>
 {/if}
+</div>
+
 
 <style>
+
+  div {
+      padding: var(--padding-container);
+  }
   img {
     display: flex;
     align-items: center;
