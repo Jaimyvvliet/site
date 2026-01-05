@@ -43,6 +43,6 @@
 
     @media (min-width: 700px) {
     max-width: 900px;
-  }
+    }
   }
 </style>
