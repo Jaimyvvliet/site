@@ -12,5 +12,5 @@ export { default as Thumbnail } from './components/1-Atoms/Thumbnail.svelte';
 
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
 
-export { default as LandingPage } from './components/3-Organism/LandingPage.svelte';
+export { default as HomePage } from './components/3-Organism/HomePage.svelte';
 export { default as LinkTreePage } from './components/3-Organism/LinkTreePage.svelte';
