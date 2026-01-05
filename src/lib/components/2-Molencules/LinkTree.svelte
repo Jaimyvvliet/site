@@ -16,6 +16,10 @@
               <Icons icon='TikTok'/>
             {:else if link.hyperlink.includes('youtube')}
               <Icons icon='Youtube'/>
+            {:else if link.hyperlink.includes('spotify')}
+              <Icons icon='Spotify'/>
+            {:else if link.hyperlink.includes('linkedin')}
+              <Icons icon='LinkedIn'/>
             {/if}
 
             {link.titleOfHyperlink}
