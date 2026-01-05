@@ -1,13 +1,13 @@
 
 <script>
   import { 
-    Landingpage
+    LandingPage
   } from '$lib/index.js'
 
   export let data;
 </script>
 
-<Landingpage content= {data}/>
+<LandingPage content= {data}/>
 
 
 
