@@ -1,0 +1,34 @@
+  <script>
+    import { Wrapper } from '$lib/index.js'
+  </script>
+  
+  <footer>
+    <Wrapper backgroundColor='var(--color-dark)'>
+    <section>
+      <h2>
+        Contact
+      </h2>
+    </section>
+    <section>
+      <h2>
+        Socials
+      </h2>
+    </section>
+    <section>
+      <h2>
+        Socials
+      </h2>
+    </section>
+    </Wrapper>
+  </footer>
+
+  <style>
+    footer {
+      background: var(--color-dark);
+      color:var(--color-light);
+    }
+
+    footer section h2 {
+      text-align: left;
+    }
+  </style>
