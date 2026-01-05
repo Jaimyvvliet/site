@@ -7,8 +7,6 @@
     section {
     display: grid;
     justify-content: center;
-
-    padding: var(--padding-container);
     }
 
     h1,

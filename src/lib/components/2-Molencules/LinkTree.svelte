@@ -3,7 +3,8 @@
   export let linkList;
 </script>
 
-<h2>Hyperlinks</h2>
+<section>
+  <h2>Hyperlinks</h2>
   {#if linkList.length > 0 }
     <ul>
       {#each linkList as link}
@@ -23,10 +24,15 @@
       {/each}
     </ul>
   {/if}
+</section>
+
+
 
 <style>
-  ul {
+  section {
     padding: var(--padding-container);
+  }
+  section ul {
     margin-block: 0;
     padding-inline: 0;
     list-style:none;
@@ -38,10 +44,10 @@
     }
   }
 
-  ul li a,
-  ul li a:visited,
-  ul li a:link,
-  ul li a:active {
+  section ul li a,
+  section ul li a:visited,
+  section ul li a:link,
+  section ul li a:active {
     color:var(--color-dark);
     text-decoration:none;
     background:var(--color-secondary);
@@ -55,7 +61,7 @@
     justify-content: center;
   }
 
-  ul li a:hover {
+  section ul li a:hover {
     background:var(--color-dark);
     color:var(--color-light);
     transform: scale(1.02);

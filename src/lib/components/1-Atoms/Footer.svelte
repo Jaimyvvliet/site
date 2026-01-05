@@ -1,10 +1,34 @@
+  <script>
+    import { Wrapper } from '$lib/index.js'
+  </script>
+  
   <footer>
-      <ul>
-        <li><a href="biografie.html">Biografie</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://open.spotify.com/artist/54MFcY18lL2m0CMJZsr7tb"  target="_blank" rel="noopener noreferrer">Spotify</a></li>
-        <li><a href="https://www.instagram.com/jaimyrafael/"  target="_blank" rel="noopener noreferrer">Instagram</a></li>
-      </ul>
-    <p>&copy; 2025 Jaimy Rafael</p>
+    <Wrapper backgroundColor='var(--color-dark)'>
+    <section>
+      <h2>
+        Contact
+      </h2>
+    </section>
+    <section>
+      <h2>
+        Socials
+      </h2>
+    </section>
+    <section>
+      <h2>
+        Socials
+      </h2>
+    </section>
+    </Wrapper>
   </footer>
+
+  <style>
+    footer {
+      background: var(--color-dark);
+      color:var(--color-light);
+    }
+
+    footer section h2 {
+      text-align: left;
+    }
+  </style>

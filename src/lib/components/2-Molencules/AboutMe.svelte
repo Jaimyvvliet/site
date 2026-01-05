@@ -30,13 +30,11 @@
 <style>
 
   div {
-      padding: var(--padding-container);
+    padding: var(--padding-container);
   }
   img {
-    display: flex;
-    align-items: center;
     max-height: 50dvh;
-    width: 100%;
+    width: auto;
     object-fit: contain;
   }
 </style>
