@@ -1,5 +1,5 @@
 <section>
-  <h2>Follow me op spotify!</h2>
+  <h2>Follow me on Spotify!</h2>
   <iframe 
     title="spotify"
     data-testid="embed-iframe"

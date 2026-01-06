@@ -4,7 +4,7 @@
 </script>
 
 <section>
-  <h2>Hyperlinks</h2>
+  <h2>Links</h2>
   {#if linkList.length > 0 }
     <ul>
       {#each linkList as link}
