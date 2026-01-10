@@ -4,7 +4,8 @@
     LinkTree,
     AboutMe,
     HeroTitle,
-    Spotify
+    Spotify,
+    CarrouselImages
   } from '$lib/index.js'
 
   export let content;
@@ -13,6 +14,7 @@
 <Wrapper>
   <HeroTitle />
   <AboutMe about={content.about}/>
+  <CarrouselImages />
   <LinkTree linkList={content.linkList}/>
   <Spotify />
 </Wrapper>

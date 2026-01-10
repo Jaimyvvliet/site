@@ -8,6 +8,7 @@ export { default as Icons } from './components/1-Atoms/Icons.svelte';
 export { default as Paragraph } from './components/1-Atoms/Paragraph.svelte';
 export { default as HeroTitle } from './components/1-Atoms/HeroTitle.svelte';
 export { default as Thumbnail } from './components/1-Atoms/Thumbnail.svelte';
+export { default as CarrouselImages } from './components/1-Atoms/CarrouselImages.svelte';
 
 
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
