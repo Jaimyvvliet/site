@@ -23,6 +23,11 @@
           <p>{about.paragraph.content}</p>
         </Paragraph>
       {/if}
+      
+      <LinkButton 
+      href='/about-me' 
+      text='Read more'
+      />
 
 
 
