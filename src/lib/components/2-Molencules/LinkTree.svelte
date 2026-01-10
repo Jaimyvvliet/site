@@ -1,9 +1,10 @@
 <script>
-  import { Icons } from '$lib/index.js'
+  import { Icons, Wrapper } from '$lib/index.js'
   export let linkList;
 </script>
 
-<section>
+<Wrapper>
+  <section>
   <h2>Links</h2>
   {#if linkList.length > 0 }
     <ul>
@@ -29,6 +30,8 @@
     </ul>
   {/if}
 </section>
+</Wrapper>
+
 
 
 

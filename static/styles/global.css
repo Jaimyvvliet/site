@@ -9,7 +9,7 @@
   /* colors */
   --color-primary: #CB98FF;
   --color-secondary:#C4EBC8;
-  --color-tertiary:#A053C5;
+  --color-tertiary:#641c85;
   --color-quaternary:#8291FF;
   --color-light:#EEF5DB;
   --color-dark:#31081F;
@@ -19,6 +19,10 @@
   /* fonts */
   --font-family-heading: "Petit Formal Script", serif;
   --font-family-primary: sans-serif;
+
+  /* font-sizes */
+  --font-size-regular: 1rem;
+  --font-size-medium: 1.2rem;
 
   /* utentils */
   --padding-regular: 1rem;
@@ -78,7 +82,7 @@ p,
 ul,
 li,
 a {
-  font-size: 1rem;
+  font-size: var(--font-size-regular);
   line-height:1.5rem;
 }
 
