@@ -16,7 +16,7 @@
   .wrapper {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem 2rem;
     background-color: var(--color-light);
 
     @media (min-width: 700px) {

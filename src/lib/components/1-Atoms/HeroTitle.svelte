@@ -1,7 +1,14 @@
-  <section>
+<script>
+  import { Wrapper } from '$lib/index.js'
+</script>
+
+<Wrapper>
+ <section>
     <h1>Jaimy Rafael</h1>
     <p>Singer & Songwriter</p>
   </section>
+</Wrapper>
+
 
   <style>
     section {
