@@ -21,13 +21,6 @@ export const load = async () => {
           id
         }
       }
-      gallery {
-        fileName
-        height
-        size
-        url
-        width
-      }
     }
     linkTrees {
       linkTree {
