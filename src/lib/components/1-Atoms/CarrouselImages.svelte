@@ -21,7 +21,6 @@ ul {
   width:100%;
   display:flex;
   gap:var(--gap-regular);
-  height:100%;
   max-height:600px;
 
   overflow-y: hidden;
@@ -36,8 +35,8 @@ ul::-webkit-scrollbar {
 
 ul li {
   aspect-ratio:var(--ratio);
-  height:100%;
-  width:70%;
+  width: 300px;
+  height: 300px;
 
   scroll-snap-align: center;
 }
