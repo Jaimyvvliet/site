@@ -10,7 +10,7 @@
   export let content;
 </script>
 
-  <HeroTitle />
+  <HeroTitle heading="Jaimy Rafael" subheading="Singer & Songwriter"/>
   <AboutMe about={content.about} teaser='true'/>
   <LinkTree linkList={content.linkList}/>
   <Spotify />

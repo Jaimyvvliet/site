@@ -3,7 +3,8 @@
     Paragraph,
     Thumbnail,
     Wrapper,
-    LinkButton
+    LinkButton,
+    HeroTitle
   } from '$lib/index.js'
   export let about;
   export let teaser = false;
@@ -27,11 +28,16 @@
       <LinkButton 
       href='/about-me' 
       text='Read more'
+      center='true'
       />
 
 
 
     {:else}
+    <HeroTitle 
+    heading={about?.paragraph.mainTitle}
+    subheading="Hi! I'm Jaimy Rafael!"
+    />
       <Thumbnail
       src={about.thumbnail.url}
       width={about.thumbnail.width}
@@ -40,7 +46,6 @@
 
       {#if about?.paragraph}
         <Paragraph>
-          <h2>{about?.paragraph.mainTitle}</h2>
           <p>{about.paragraph.content}</p>
 
         {#if about?.paragraph.additionalSections}
