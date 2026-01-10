@@ -9,12 +9,13 @@
   } from '$lib/index.js'
 
   export let content;
+  console.log(content)
 </script>
 
 <Wrapper>
   <HeroTitle />
   <AboutMe about={content.about}/>
-  <CarrouselImages />
+  <CarrouselImages Images={content.about.photogallery}/>
   <LinkTree linkList={content.linkList}/>
   <Spotify />
 </Wrapper>

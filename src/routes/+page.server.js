@@ -21,12 +21,12 @@ export const load = async () => {
           id
         }
       }
-      gallery {
+      photogallery {
         fileName
-        height
-        size
+        mimeType
         url
         width
+        height
       }
     }
     linkTrees {
