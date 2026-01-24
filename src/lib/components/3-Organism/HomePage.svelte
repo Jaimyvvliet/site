@@ -12,10 +12,8 @@
   console.log(content)
 </script>
 
-<Wrapper>
-  <HeroTitle />
-  <AboutMe about={content.about}/>
+  <HeroTitle heading="Jaimy Rafael" subheading="Singer & Songwriter"/>
+  <AboutMe about={content.about} teaser='true'/>
   <CarrouselImages Images={content.about.photogallery}/>
   <LinkTree linkList={content.linkList}/>
   <Spotify />
-</Wrapper>

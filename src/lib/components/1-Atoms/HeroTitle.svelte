@@ -1,7 +1,16 @@
-  <section>
-    <h1>Jaimy Rafael</h1>
-    <p>Singer & Songwriter</p>
+<script>
+  import { Wrapper } from '$lib/index.js'
+  export let heading = 'no heading found';
+  export let subheading = 'no subheading found'
+</script>
+
+<Wrapper>
+ <section>
+    <h1>{heading}</h1>
+    <p>{subheading}</p>
   </section>
+</Wrapper>
+
 
   <style>
     section {
