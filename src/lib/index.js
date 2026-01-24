@@ -10,6 +10,7 @@ export { default as Paragraph } from './components/1-Atoms/Paragraph.svelte';
 export { default as HeroTitle } from './components/1-Atoms/HeroTitle.svelte';
 export { default as Thumbnail } from './components/1-Atoms/Thumbnail.svelte';
 export { default as LinkButton } from './components/1-Atoms/LinkButton.svelte';
+export { default as LinkIcon } from './components/1-Atoms/LinkIcon.svelte';
 
 
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';

@@ -1,25 +1,24 @@
   <script>
-    import { Wrapper, HyperlinkList } from '$lib/index.js'
+    import { Wrapper, HyperlinkList, LinkIcon } from '$lib/index.js'
+    export let footerData;
+    console.log(footerData)
   </script>
   
   <footer>
     <Wrapper backgroundColor='var(--color-dark)'>
-
-    <section>
-      <h2>
-        Contact
-      </h2>
-    </section>
-    <section>
-      <h2>
-        Socials
-      </h2>
-      <ul>
-        <li>
-          <a href='Instagram'>Instagram</a>
-        </li>
-      </ul>
-    </section>
+      {#each footerData.footerLinks as footerItem}
+      {console.log(footerItem)}
+      <section>
+        <h2>{footerItem.headingOfListOfLinks}</h2>
+        <ul>
+          {#each footerItem.listOfLinks as linkItem}
+          <li>
+            <LinkIcon href={linkItem.hyperlink} title={linkItem.titleOfHyperlink}/>
+          </li>
+          {/each}
+        </ul>
+      </section>
+      {/each}
 
     </Wrapper>
   </footer>

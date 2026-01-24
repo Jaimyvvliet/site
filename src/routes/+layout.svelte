@@ -10,9 +10,10 @@
      */
 
     /** @type {Props} */
-    let { children } = $props();
+    let { children, data } = $props();
+
 </script>
 
   <Header variant='default'/>
   <main>{@render children?.()}</main>
-  <Footer />
+  <Footer footerData={data.footer}/>
