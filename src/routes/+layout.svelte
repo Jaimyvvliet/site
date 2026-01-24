@@ -1,6 +1,7 @@
 <script>
     import { 
       Header,
+      Footer
     } from "$lib/index.js";
 
     /**
@@ -14,3 +15,4 @@
 
   <Header variant='default'/>
   <main>{@render children?.()}</main>
+  <Footer />

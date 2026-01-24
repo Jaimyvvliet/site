@@ -40,9 +40,6 @@
     padding: var(--padding-container);
   }
   section ul {
-    margin-block: 0;
-    padding-inline: 0;
-    list-style:none;
     display: grid;
     gap: var(--gap-regular);
 
