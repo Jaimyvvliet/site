@@ -25,6 +25,7 @@
   --font-size-medium: 1.2rem;
 
   /* utentils */
+  --padding-small: 1rem;
   --padding-regular: 1rem;
   --padding-medium: 2rem;
   --padding-large: 4rem; 
@@ -32,6 +33,9 @@
   --border-radius-regular:1rem;
   --gap-small:.5rem;
   --gap-regular: 1rem;
+
+  /* transform */
+  --transform-scale-regular: scale(1.05);
   
   /* transition */
   --hover-transition: 200ms 0ms ease-in-out;
@@ -92,16 +96,14 @@ ul {
   list-style:none;
 }
 
-a {
-  outline-color: transparent;
-}
-
+a,
+a:visited,
 a:link {
-  color: var(--color-dark);
-}
-
-a:visited {
-  color: #2c24ff;
+  --main-color:var(--color-light);
+  outline-color: transparent;
+  transition: var(--hover-transition);
+  color:var(--main-color);
+  text-decoration: none;
 }
 
 a:focus {
@@ -110,11 +112,17 @@ a:focus {
 }
 
 a:hover {
-  text-decoration: none;
-  background: var(--color-secondary);
+  background:var(--color-secondary);
+  color:var(--color-dark);
+  transform: var(--transform-scale-regular);
+  font-weight:bold;
 }
 
 a:active {
   background: var(--color-dark);
   color: var(--color-secondary);
+}
+
+.link {
+
 }

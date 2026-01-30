@@ -61,15 +61,12 @@
     display:flex;
     align-items:center;
     gap:var(--gap-small);
-    transition: var(--hover-transition);
     justify-content: center;
   }
 
   section ul li a:hover {
     background:var(--color-dark);
     color:var(--color-light);
-    transform: scale(1.02);
-
   }
 
 </style>

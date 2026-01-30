@@ -4,7 +4,7 @@
   export let href;
 </script>
 
-<a href={href}>
+<a href={href} class="link">
   {#if href.includes('instagram')}
     <Icons icon='Instagram'/>
   {:else if href.includes('tiktok')}
@@ -18,3 +18,12 @@
   {/if}
   {title}
 </a>
+
+<style>
+  a {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+  }
+
+</style>

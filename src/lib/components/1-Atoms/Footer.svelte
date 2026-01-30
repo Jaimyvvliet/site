@@ -7,7 +7,6 @@
   <footer>
     <Wrapper backgroundColor='var(--color-dark)'>
       {#each footerData.footerLinks as footerItem}
-      {console.log(footerItem)}
       <section>
         <h2>{footerItem.headingOfListOfLinks}</h2>
         <ul>
@@ -27,13 +26,19 @@
     footer {
       background: var(--color-dark);
       color:var(--color-light);
+      display: grid;
+    }
+
+    footer section {
+      padding: 1rem 0;
     }
 
     footer section h2 {
       text-align: left;
+      margin-block: .3rem
     }
 
-    footer section ul li a {
-      color:white
+    footer section ul li {
+      width: fit-content;
     }
   </style>
