@@ -1,19 +1,33 @@
-// Reexport your entry components here
+
+// 1-Atoms
 export { default as Header } from './components/1-Atoms/Header.svelte';
-export { default as Spotify } from './components/1-Atoms/Spotify.svelte';
-export { default as Footer } from './components/1-Atoms/Footer.svelte';
 export { default as Wrapper } from './components/1-Atoms/Wrapper.svelte';
 export { default as Icons } from './components/1-Atoms/Icons.svelte';
 export { default as Paragraph } from './components/1-Atoms/Paragraph.svelte';
-export { default as HeroTitle } from './components/1-Atoms/HeroTitle.svelte';
-export { default as Thumbnail } from './components/1-Atoms/Thumbnail.svelte';
 export { default as LinkButton } from './components/1-Atoms/LinkButton.svelte';
-export { default as LinkIcon } from './components/1-Atoms/LinkIcon.svelte';
-export { default as LinkSection } from './components/1-Atoms/LinkSection.svelte';
 export { default as Copyright } from './components/1-Atoms/Copyright.svelte';
 
+// 2-Molencules
+export { default as Spotify } from './components/2-Molencules/Spotify.svelte';
+export { default as HeroTitle } from './components/2-Molencules/HeroTitle.svelte';
+export { default as Thumbnail } from './components/2-Molencules/Thumbnail.svelte';
+export { default as LinkIcon } from './components/2-Molencules/LinkIcon.svelte';
+export { default as LinkSection } from './components/2-Molencules/LinkSection.svelte';
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
 export { default as AboutMe } from './components/2-Molencules/AboutMe.svelte';
 
-export { default as HomePage } from './components/3-Organism/HomePage.svelte';
+// 3-Organism
 export { default as LinkTreePage } from './components/3-Organism/LinkTreePage.svelte';
+
+// 4-Template
+export { default as Footer } from './components/4-Template/Footer.svelte';
+
+// 5-Page
+export { default as HomePage } from './components/5-Page/HomePage.svelte';
+
+
+
+
+
+
+
