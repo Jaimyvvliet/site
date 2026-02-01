@@ -13,8 +13,12 @@
   --color-quaternary:#8291FF;
   --color-light:#EEF5DB;
   --color-dark:#31081F;
-
   --color-background: var(--color-quaternary);
+
+  /* shadows */
+  --box-shadow-color: hsla(15, 100%, 11%, 0.20);
+  --box-shadow-text: 0 0 15px var(--box-shadow-color);
+  --box-shadow-object: 0 0 25px 5px var(--box-shadow-color);
 
   /* fonts */
   --font-family-heading: "Petit Formal Script", serif;
@@ -105,6 +109,8 @@ a:link {
   transition: var(--hover-transition);
   color:var(--main-color);
   text-decoration: none;
+  height: 100%;
+  display: block;
 }
 
 a:focus {
