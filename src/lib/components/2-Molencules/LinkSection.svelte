@@ -34,7 +34,11 @@
 
 	div section h2 {
 		text-align: left;
-		margin-block: 0.3rem;
+	}
+	
+	div section ul {
+		gap: var(--gap-small);
+    display: grid;
 	}
 
 	div section ul li {

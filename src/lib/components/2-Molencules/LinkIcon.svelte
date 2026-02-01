@@ -32,7 +32,6 @@
 	}
 
 	a:hover {
-		margin: 0.3rem 0;
 		padding: 0.3rem;
 	}
 
