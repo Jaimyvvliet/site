@@ -1,7 +1,6 @@
   <script>
     import { Wrapper, HyperlinkList, LinkIcon } from '$lib/index.js'
     export let footerData;
-    console.log(footerData)
   </script>
   
 
