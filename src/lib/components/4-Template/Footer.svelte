@@ -17,24 +17,33 @@
 
 <style>
 	footer {
+		--size: 10rem;
 		background: var(--color-dark);
 		color: var(--color-light);
 		position:relative;
 		display:grid;
+		margin-top:calc(var(--size) / 2);
 	}
 
 	footer div {
-		--ratio: 10rem;
 		width:100%;
-		height: calc(var(--ratio) / 2);
+		height: calc(var(--size) / 2);
 		position:relative;
 	}
 	footer div a {
-		width:var(--ratio);
-		height:var(--ratio);
+		width:var(--size);
+		height:var(--size);
 		margin-top: -5rem;
 		position:absolute;
-		right:0;
+		left: 50%;
+    transform: translate(-50%);
+
+		@media (min-width:900px) {
+				right: 0;
+        top: 0;
+        left: unset;
+        transform: none;
+		}
 	}
 
 	footer div a:hover {
