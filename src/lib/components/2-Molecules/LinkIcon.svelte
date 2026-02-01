@@ -29,10 +29,11 @@
 		gap: var(--gap-small);
 		justify-content: center;
 		border-radius: var(--border-radius-regular);
+		padding:var(--padding-small) 0;
 	}
 
 	a:hover {
-		padding: 0.3rem;
+		padding:var(--padding-small);
 	}
 
 	.linktree,

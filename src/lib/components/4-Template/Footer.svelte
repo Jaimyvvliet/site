@@ -35,14 +35,11 @@
 		height:var(--size);
 		margin-top: -5rem;
 		position:absolute;
-		left: 50%;
-    transform: translate(-50%);
+		right: 0;
 
-		@media (min-width:900px) {
+		@media (min-width:700px) {
 				right: 0;
-        top: 0;
         left: unset;
-        transform: none;
 		}
 	}
 

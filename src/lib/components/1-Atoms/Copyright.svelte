@@ -6,6 +6,7 @@
 	div {
 		background: var(--color-secondary);
 		padding: var(--padding-small);
+		width:100%
 	}
 
 	p,
@@ -17,6 +18,7 @@
 
 	a {
 		font-weight: 700;
+		display:unset;
 	}
 
 	a:hover {
