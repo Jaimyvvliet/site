@@ -34,6 +34,7 @@
 
 	div section h2 {
 		text-align: left;
+		color:var(--color-primary);
 	}
 	
 	div section ul {
