@@ -32,7 +32,8 @@
 	}
 
 	a:hover {
-		padding: 0 0.5rem;
+		margin: .3rem 0;
+		padding: .3rem
 	}
 
 	.linktree,
@@ -48,5 +49,6 @@
 	.linktree:hover {
 		background: var(--color-dark);
 		color: var(--color-light);
+		margin: 0;
 	}
 </style>

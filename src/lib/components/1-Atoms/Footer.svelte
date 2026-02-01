@@ -44,7 +44,5 @@
 		width: fit-content;
 		transition: var(--hover-transition);
 	}
-	footer section ul li:hover {
-		padding: 0.5rem 0;
-	}
+
 </style>
