@@ -12,7 +12,6 @@ export { default as Thumbnail } from './components/1-Atoms/Thumbnail.svelte';
 export { default as LinkButton } from './components/1-Atoms/LinkButton.svelte';
 export { default as LinkIcon } from './components/1-Atoms/LinkIcon.svelte';
 
-
 export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
 
 export { default as HomePage } from './components/3-Organism/HomePage.svelte';

@@ -3,17 +3,17 @@ import { hygraph } from '$lib/hygraph.js';
 
 export const load = async () => {
 	const query = gql`
-	query Footer {
-		footers {
-			footerLinks {
-				headingOfListOfLinks
-				listOfLinks {
-					hyperlink
-					titleOfHyperlink
+		query Footer {
+			footers {
+				footerLinks {
+					headingOfListOfLinks
+					listOfLinks {
+						hyperlink
+						titleOfHyperlink
+					}
 				}
 			}
 		}
-	}
 	`;
 
 	const data = await hygraph.request(query);

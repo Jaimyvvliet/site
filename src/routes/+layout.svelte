@@ -1,19 +1,15 @@
 <script>
-    import { 
-      Header,
-      Footer
-    } from "$lib/index.js";
+	import { Header, Footer } from '$lib/index.js';
 
-    /**
-     * @typedef {Object} Props
-     * @property {import('svelte').Snippet} [children]
-     */
+	/**
+	 * @typedef {Object} Props
+	 * @property {import('svelte').Snippet} [children]
+	 */
 
-    /** @type {Props} */
-    let { children, data } = $props();
-
+	/** @type {Props} */
+	let { children, data } = $props();
 </script>
 
-  <Header variant='default'/>
-  <main>{@render children?.()}</main>
-  <Footer footerData={data.footer}/>
+<Header variant="default" />
+<main>{@render children?.()}</main>
+<Footer footerData={data.footer} />

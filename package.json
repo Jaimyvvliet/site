@@ -7,7 +7,9 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''"
+		"prepare": "svelte-kit sync || echo ''",
+		"lint": "prettier --check .",
+		"format": "prettier --write ."
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^6.0.0",
@@ -15,8 +17,8 @@
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
 		"graphql": "^16.12.0",
 		"graphql-request": "^7.3.5",
-		"prettier": "^3.6.2",
-		"prettier-plugin-svelte": "^3.4.0",
+		"prettier": "^3.8.1",
+		"prettier-plugin-svelte": "^3.4.1",
 		"svelte": "^5.0.0",
 		"vite": "^6.2.6"
 	},
