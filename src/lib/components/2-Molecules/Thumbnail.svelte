@@ -5,11 +5,19 @@
 	export let height;
 </script>
 
-<img {src} {width} {height} alt="thumbnail" />
+<div>
+	<img {src} {width} {height} alt="thumbnail" />
+</div>
 
 <style>
-	img {
+	div {
 		max-height: 50dvh;
-		object-fit: contain;
+		display: flex;
+    justify-content: center;
+	}
+	img {
+    object-fit: contain;
+    max-height: 50dvh;
+    width: auto;
 	}
 </style>
