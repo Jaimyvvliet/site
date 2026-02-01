@@ -44,6 +44,7 @@
 * {
   box-sizing: border-box;
   font-family: var(--font-family-primary);
+  
 }
 
 body,
@@ -115,14 +116,9 @@ a:hover {
   background:var(--color-secondary);
   color:var(--color-dark);
   transform: var(--transform-scale-regular);
-  font-weight:bold;
 }
 
 a:active {
   background: var(--color-dark);
   color: var(--color-secondary);
-}
-
-.link {
-
 }

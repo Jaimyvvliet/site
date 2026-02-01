@@ -4,8 +4,9 @@
     console.log(footerData)
   </script>
   
-  <footer>
+
     <Wrapper backgroundColor='var(--color-dark)'>
+        <footer>
       {#each footerData.footerLinks as footerItem}
       <section>
         <h2>{footerItem.headingOfListOfLinks}</h2>
@@ -15,18 +16,23 @@
             <LinkIcon href={linkItem.hyperlink} title={linkItem.titleOfHyperlink}/>
           </li>
           {/each}
+          
         </ul>
       </section>
       {/each}
-
-    </Wrapper>
   </footer>
+    </Wrapper>
+
 
   <style>
     footer {
       background: var(--color-dark);
       color:var(--color-light);
       display: grid;
+
+      @media (min-width:700px) {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
     }
 
     footer section {
@@ -40,5 +46,9 @@
 
     footer section ul li {
       width: fit-content;
+      transition: var(--hover-transition);
+    }
+    footer section ul li:hover {
+      padding: .5rem 0;
     }
   </style>

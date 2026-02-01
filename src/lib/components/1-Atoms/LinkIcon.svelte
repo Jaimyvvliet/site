@@ -2,9 +2,11 @@
   import { Icons } from '$lib/index.js'
   export let title;
   export let href;
+
+  export let linkTree = false; 
 </script>
 
-<a href={href} class="link">
+<a href={href} class:linktree={linkTree}>
   {#if href.includes('instagram')}
     <Icons icon='Instagram'/>
   {:else if href.includes('tiktok')}
@@ -16,14 +18,37 @@
   {:else if href.includes('linkedin')}
     <Icons icon='LinkedIn'/>
   {/if}
-  {title}
+  {title} 
 </a>
 
 <style>
   a {
-    display: flex;
-    align-items: center;
-    gap: .3rem;
+    width:auto;
+    display:flex;
+    align-items:center;
+    gap:var(--gap-small);
+    justify-content: center;
+    border-radius: var(--border-radius-regular);
   }
+
+  a:hover {
+    padding: 0 0.5rem;
+  }
+
+    .linktree,
+    .linktree:visited,
+    .linktree:link,
+    .linktree:active {
+    color:var(--color-dark);
+    text-decoration:none;
+    background:var(--color-secondary);
+    padding:var(--padding-regular);
+  }
+
+    .linktree:hover {
+    background:var(--color-dark);
+    color:var(--color-light);
+  }
+
 
 </style>
