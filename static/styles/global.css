@@ -36,8 +36,9 @@
   --font-family-primary: "Roboto Condensed", sans-serif;
 
   /* font-sizes */
-  --font-size-regular: 1rem;
-  --font-size-medium: 1.2rem;
+  --font-size-regular: 1.2rem;
+  --font-size-medium: 1.4rem;
+  --line-height-regular:2rem;
 
   /* utentils */
   --padding-small: .5rem;
@@ -118,7 +119,7 @@ ul,
 li,
 a {
   font-size: var(--font-size-regular);
-  line-height:1.5rem;
+  line-height:var(--line-height-regular);
 }
 
 ul {
