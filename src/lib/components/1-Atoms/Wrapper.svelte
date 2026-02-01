@@ -1,5 +1,5 @@
 <script>
-	export let backgroundColor = 'var(--color-background)';
+	export let backgroundColor = 'none';
 	export let fullwidth = false;
 </script>
 
@@ -17,7 +17,6 @@
 		display: flex;
 		justify-content: center;
 		padding: 1rem 2rem;
-		background-color: var(--color-light);
 
 		@media (min-width: 700px) {
 			padding: 2rem 4rem;
