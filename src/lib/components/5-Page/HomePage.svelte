@@ -5,6 +5,6 @@
 </script>
 
 <HeroTitle heading="Jaimy Rafael" subheading="Singer & Songwriter" />
-<AboutMe about={content.about} teaser="true" />
+<a target="_blank" rel="noopener noreferrer"boutMe about={content.about} teaser="true" />
 <LinkTree linkList={content.linkList} />
 <Spotify />

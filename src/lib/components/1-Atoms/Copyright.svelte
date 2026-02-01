@@ -1,5 +1,5 @@
 <div class="copyright">
-	<p>made by <a href="https://www.sammm.my/">sammm.my</a></p>
+	<p>made by <a target="_blank" rel="noopener noreferrer" href="https://www.sammm.my/">sammm.my</a></p>
 </div>
 
 <style>

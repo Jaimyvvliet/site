@@ -6,7 +6,7 @@
 	export let linkTree = false;
 </script>
 
-<a {href} class:linktree={linkTree}>
+<a target="_blank" rel="noopener noreferrer" {href} class:linktree={linkTree}>
 	{#if href.includes('instagram')}
 		<Icons icon="Instagram" />
 	{:else if href.includes('tiktok')}

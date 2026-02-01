@@ -5,7 +5,7 @@
 </script>
 
 <div class:center>
-	<a {href}>{text}</a>
+	<a target="_blank" rel="noopener noreferrer" {href}>{text}</a>
 </div>
 
 <style>
