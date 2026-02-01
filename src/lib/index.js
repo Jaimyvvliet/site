@@ -8,13 +8,13 @@ export { default as LinkButton } from './components/1-Atoms/LinkButton.svelte';
 export { default as Copyright } from './components/1-Atoms/Copyright.svelte';
 
 // 2-Molencules
-export { default as Spotify } from './components/2-Molencules/Spotify.svelte';
-export { default as HeroTitle } from './components/2-Molencules/HeroTitle.svelte';
-export { default as Thumbnail } from './components/2-Molencules/Thumbnail.svelte';
-export { default as LinkIcon } from './components/2-Molencules/LinkIcon.svelte';
-export { default as LinkSection } from './components/2-Molencules/LinkSection.svelte';
-export { default as LinkTree } from './components/2-Molencules/LinkTree.svelte';
-export { default as AboutMe } from './components/2-Molencules/AboutMe.svelte';
+export { default as Spotify } from './components/2-Molecules/Spotify.svelte';
+export { default as HeroTitle } from './components/2-Molecules/HeroTitle.svelte';
+export { default as Thumbnail } from './components/2-Molecules/Thumbnail.svelte';
+export { default as LinkIcon } from './components/2-Molecules/LinkIcon.svelte';
+export { default as LinkSection } from './components/2-Molecules/LinkSection.svelte';
+export { default as LinkTree } from './components/2-Molecules/LinkTree.svelte';
+export { default as AboutMe } from './components/2-Molecules/AboutMe.svelte';
 
 // 3-Organism
 export { default as LinkTreePage } from './components/3-Organism/LinkTreePage.svelte';
