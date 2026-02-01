@@ -3,19 +3,19 @@ import { hygraph } from '$lib/hygraph.js';
 
 export const load = async () => {
 	const query = gql`
-  query linkTree {
-    linkTrees {
-      linkTree {
-        hyperlink
-        titleOfHyperlink
-      }
-    }
-  }
+		query linkTree {
+			linkTrees {
+				linkTree {
+					hyperlink
+					titleOfHyperlink
+				}
+			}
+		}
 	`;
 
 	const data = await hygraph.request(query);
 
 	return {
-    linkList: data.linkTrees[0]?.linkTree ?? []
-  };
+		linkList: data.linkTrees[0]?.linkTree ?? []
+	};
 };
