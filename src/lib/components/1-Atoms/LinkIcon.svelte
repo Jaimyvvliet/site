@@ -32,8 +32,8 @@
 	}
 
 	a:hover {
-		margin: .3rem 0;
-		padding: .3rem
+		margin: 0.3rem 0;
+		padding: 0.3rem;
 	}
 
 	.linktree,
