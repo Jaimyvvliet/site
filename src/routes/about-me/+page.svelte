@@ -4,4 +4,4 @@
 	export let data;
 </script>
 
-<a target="_blank" rel="noopener noreferrer"boutMe about={data.about} />
+<AboutMe about={data.about} />
