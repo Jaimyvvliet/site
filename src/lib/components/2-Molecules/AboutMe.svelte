@@ -10,12 +10,14 @@
 			height={about.thumbnail.height}
 		/>
 
-		{#if about?.paragraph}
+		{#if about?.newParagraph}
 			<Paragraph>
-				<p>{about.paragraph.content}</p>
+			<h2>{about.newParagraph.mainTitle}</h2>
 
-				{#if about?.paragraph.additionalSections}
-					{#each about?.paragraph.additionalSections as section}
+			<Markdown content={about.newParagraph.content.markdown}></Markdown>
+
+				{#if about?.newParagraph.additionalSections}
+					{#each about?.newParagraph.additionalSections as section}
 						<h3>{section.sectionTitle}</h3>
 						<p>{section.contentOfSection}</p>
 					{/each}

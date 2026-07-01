@@ -12,13 +12,16 @@ export const load = async () => {
 					mimeType
 					height
 				}
-				paragraph {
+				newParagraph {
 					mainTitle
-					content
-					additionalSections {
-						contentOfSection
+					sections {
+						contentOfSection {
+							markdown
+						}
 						sectionTitle
-						id
+					}
+					content {
+						markdown
 					}
 				}
 			}
