@@ -5,6 +5,7 @@ export { default as Wrapper } from './components/1-Atoms/Wrapper.svelte';
 export { default as Icons } from './components/1-Atoms/Icons.svelte';
 export { default as Paragraph } from './components/1-Atoms/Paragraph.svelte';
 export { default as LinkButton } from './components/1-Atoms/LinkButton.svelte';
+export { default as Markdown } from './components/1-Atoms/Markdown.svelte';
 export { default as Copyright } from './components/1-Atoms/Copyright.svelte';
 
 // 2-Molencules

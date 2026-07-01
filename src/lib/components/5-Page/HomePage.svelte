@@ -2,9 +2,10 @@
 	import { Wrapper, LinkTree, AboutMe, HeroTitle, Spotify } from '$lib/index.js';
 
 	export let content;
+	console.log(content)
 </script>
 
 <HeroTitle heading="Jaimy Rafael" subheading="Singer & Songwriter" />
-<AboutMe about={content.about} teaser="true" />
+<AboutMe about={content.about}/>
 <LinkTree linkList={content.linkList} />
 <Spotify />
