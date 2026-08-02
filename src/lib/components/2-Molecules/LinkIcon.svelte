@@ -11,12 +11,20 @@
 		<Icons icon="Instagram" />
 	{:else if href.includes('tiktok')}
 		<Icons icon="TikTok" />
-	{:else if href.includes('youtube')}
+{:else if href.includes('youtube') || href.includes('youtu.be')}
 		<Icons icon="Youtube" />
+		{:else if href.includes('tidal')}
+		<Icons icon="Tidal" />
 	{:else if href.includes('spotify')}
 		<Icons icon="Spotify" />
 	{:else if href.includes('linkedin')}
 		<Icons icon="LinkedIn" />
+			{:else if href.includes('apple')}
+		<Icons icon="Apple Music" />
+					{:else if href.includes('soundcloud')}
+		<Icons icon="Soundcloud" />
+					{:else if href.includes('deezer')}
+		<Icons icon="deezer" />
 	{/if}
 	{title}
 </a>
