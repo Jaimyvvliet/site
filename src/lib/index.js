@@ -16,6 +16,7 @@ export { default as LinkIcon } from './components/2-Molecules/LinkIcon.svelte';
 export { default as LinkSection } from './components/2-Molecules/LinkSection.svelte';
 export { default as LinkTree } from './components/2-Molecules/LinkTree.svelte';
 export { default as LinkTree_OOO } from './components/2-Molecules/LinkTree_OOO.svelte';
+export { default as LinkTree_LMI } from './components/2-Molecules/LinkTree_LMI.svelte';
 export { default as AboutMe } from './components/2-Molecules/AboutMe.svelte';
 
 // 3-Organism
