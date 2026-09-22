@@ -1,5 +1,5 @@
 <script>
-	import { LinkTree_OOO } from '$lib/index.js';
+	import { LinkTree_LMI } from '$lib/index.js';
 </script>
 
-<LinkTree_OOO/>
+<LinkTree_LMI/>
