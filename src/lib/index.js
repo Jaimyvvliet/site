@@ -21,7 +21,7 @@ export { default as AboutMe } from './components/2-Molecules/AboutMe.svelte';
 
 // 3-Organism
 export { default as LinkTreePage } from './components/3-Organism/LinkTreePage.svelte';
-
+export { default as LetMeIn } from './components/3-Organism/letmein.svelte';
 // 4-Template
 export { default as Footer } from './components/4-Template/Footer.svelte';
 
